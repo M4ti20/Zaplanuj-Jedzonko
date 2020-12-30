@@ -1,0 +1,49 @@
+.firstTimeInApp-container{
+  height: 85%;
+  background: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 70px 70px;
+  border: 1px dotted black;
+  text-align: center;
+  color: $color-dark-grey;
+
+  h3{
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  p{
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .first-time-input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .first-time-btn{
+    background: $color-orange;
+    border: none;
+    width: 120px;
+    height: 40px;
+    color: $color-white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+}
+
+.hidden {
+  display: none;
+}

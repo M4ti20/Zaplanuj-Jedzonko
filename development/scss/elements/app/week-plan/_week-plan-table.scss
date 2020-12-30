@@ -1,0 +1,95 @@
+.week-plan-table{
+  padding: 20px;
+  background: $color-white;
+  text-align: center;
+  border: 2px dashed black;
+  font-weight: 600;
+  margin-top: 30px;
+
+  h4{
+
+    font-size: 1.5rem;
+    color: $color-orange;
+    padding: 10px;
+    border-bottom: 1px solid $color-dark-grey;
+  }
+}
+
+.wpt-week{
+  margin: 0 30px 20px 30px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+}
+
+.breakfast{
+  margin: 0 30px 20px 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+  color: $color-light-grey;
+}
+
+.second-breakfast{
+  margin: 0 30px 20px 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+  color: $color-light-grey;
+}
+
+.soup{
+  margin: 0 30px 20px 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+  color: $color-light-grey;
+}
+
+.main-course{
+  margin: 0 30px 20px 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+  color: $color-light-grey;
+}
+
+.dinner{
+  margin: 0 30px 30px 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding:10px;
+  color: $color-dark-grey;
+  border-bottom: 1px solid $color-dark-grey;
+  color: $color-light-grey;
+}
+
+.wpt-button{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-button, .right-button{
+  border: none;
+  background: none;
+  color: orange;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,35 @@
+.newsletter-container{
+  width: 100%;
+  min-height: 150px;
+  background: $color-grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $color-white;
+}
+
+.newsletter-text h3 {
+  font-size: 3rem;
+}
+
+.newsletter-form{
+  display: flex;
+
+}
+
+.newsletter-btn{
+  color: $color-white;
+  background: $color-orange;
+  width: 170px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+}
+
+.newsletter-input {
+  height: 60px;
+  width: 300px;
+  border: none
+
+}

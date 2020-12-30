@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: $color-primary;
+    font-family: $font-open-sans;
+}
+
+a {
+    text-decoration: none;
+}
+
+.landing_main_container {
+    width: 81.25rem;
+    margin: 0 auto;
+}

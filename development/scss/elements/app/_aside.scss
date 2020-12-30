@@ -1,0 +1,34 @@
+.container-aside {
+    background-color: $color-grey;
+    height: 92vh;
+    width: 15vw;
+
+    a.app-list {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        padding: 30px;
+        border-left: 9px solid transparent;
+        display: flex;
+        justify-content: space-between;
+        
+        .fa-angle-right {
+            color: transparent;
+        }
+    }
+
+    a.app-list:hover {
+        border-left: 9px solid $color-orange;
+
+        .fa-angle-right {
+            color: $color-orange;
+        }
+    }
+
+    a.app-list.active {
+        border-left: 9px solid $color-orange;
+        .fa-angle-right {
+            color: $color-orange;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.header_container_app{
+  background-color: $color-dark-grey;
+  color: $color-white;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-logo {
+  font-family: $font-charmonman;
+  font-size: 2.5rem;
+}
+
+.first {
+  padding-left: 2.5rem;
+  padding-right: 0.312rem;
+  color: white;
+  font-weight: 400;
+}
+
+.second {
+  color: #E58A20;
+  font-weight: 700;
+}
+
+.app-profile-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.app-profile-name p{
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.fa-user-circle{
+  color: $color-orange;
+  font-size: 3.5rem;
+  margin-right: 20px;
+}

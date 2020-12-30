@@ -1,0 +1,32 @@
+// CDN FONTAWESOME
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+//
+// Sass:
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+
+
+@import "reset/reset";
+
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "elements/landing-page/base";
+@import "elements/landing-page/header";
+@import "elements/landing-page/carousel";
+@import "elements/landing-page/cta";
+@import "elements/landing-page/features";
+@import "elements/landing-page/newsletter";
+@import "elements/landing-page/aboutme";
+@import "elements/landing-page/footer";
+
+@import "elements/app/aside";
+@import "elements/app/header";
+@import "elements/app/main";
+@import "elements/app/container";
+@import "elements/app/dashboard/dashboard";
+@import "elements/app/dashboard/notificationwidget";
+@import "elements/app/firstTimeInApp/firstTime";
+@import "elements/app/week-plan/week-plan-table";
+@import "elements/app/recipes/recipes";
+
+@import "elements/app/addSchedlue/addSchedlue"

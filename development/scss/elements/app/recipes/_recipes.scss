@@ -1,0 +1,63 @@
+.recipes-container{
+    height: 85%;
+    background: $color-white;
+    margin: 40px 70px 70px;
+    border: 2px dashed black;
+    color: $color-dark-grey;
+    overflow: auto;
+
+    .recipes-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid $color-light-grey;
+        width: 90%;
+        margin: 20px auto;
+
+        h3 {
+            font-size: 1.8rem;
+            color: $color-orange;
+            font-weight: 700;
+        }
+
+        .fa-plus-square {
+            color: $color-green;
+            font-size: 2.5rem;
+        }
+    }
+
+    .recipes-table {
+        table {
+            width: 90%;
+            margin: 20px auto;
+
+            tr {
+                border-bottom: 1px solid $color-light-grey;
+            }
+
+            th {
+                padding: 10px;
+                font-size: 1.7rem;
+                font-weight: 700;
+            }
+
+            td {
+                padding: 10px;
+                font-size: 1.3rem;
+                text-align: center;
+            }
+
+            .fa-edit {
+                color: $color-light-orange;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+
+            .fa-trash-alt {
+                color: $color-red;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.dashboard-some{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .notification_widgets{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    font-size: 1.3rem;
+    height: 85%;
+    background-image: url(./../../../../assets/background.png);
+
+    .notification_widget_first{
+      border: 3px dashed $color-blue;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      background-color: $color-white;
+      position: relative;
+
+      .fa-info-circle{
+        color:$color-blue;
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 1.56rem;
+      }
+      .notification_widget_first_span{
+        color: $color-blue;
+      }
+      .fa-times{
+        color:$color-blue;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+    .notification_widget_second{
+      border: 3px dashed $color-light-orange;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      margin-top: 7.5px;
+      margin-bottom: 7.5px;
+      background-color: $color-white;
+      position: relative;
+
+      .fa-exclamation-circle{
+        color:$color-light-orange;
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 1.56rem;
+      }
+      .notification_widget_second_span{
+        color: $color-light-orange;
+        margin-right: 10px;
+      }
+      .fa-times{
+        color:$color-light-orange;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+    .notification_widget_third{
+      border: 3px dashed $color-green;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background-color: $color-white;
+
+      .fa-check-circle{
+        color:$color-green;
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 1.56rem;
+      }
+      .notification_widget_third_span{
+        color:$color-green;
+      }
+      .fa-times{
+        color:$color-green;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+}

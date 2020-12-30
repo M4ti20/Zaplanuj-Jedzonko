@@ -1,0 +1,62 @@
+.header__lp {
+    background-color: $color-dark-grey;
+    color: $color-white;
+
+    h1 {
+        font-family: $font-charmonman;
+        font-size: 3rem;
+    }
+
+    .header_container_index{
+        height: 5.625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .logo_first {
+        padding-left: 2.5rem;
+        padding-right: 0.312rem;
+        color: white;
+        font-weight: 400;
+    }
+
+    .logo_second {
+        color: #E58A20;
+        font-weight: 700;
+    }
+
+    .page-nav{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1rem;
+    }
+
+    .page-nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        text-transform: uppercase;
+        font-family: $font-open-sans;
+
+        a{
+            text-transform: uppercase;
+            color: white;
+            font-size: 1.3rem;
+            padding-left: 2.5rem;
+            padding-right:2.5rem;
+            justify-content: flex-end;
+            text-decoration: none;
+        }
+        a:hover {
+            color: $color-orange;
+        }
+
+    }
+
+}
+

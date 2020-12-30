@@ -1,0 +1,111 @@
+.add-schedlue-container{
+  background: $color-white;
+  margin: 20px 60px 10px 60px;
+  border: 2px dashed black;
+
+  select {
+    width: 120px;
+  }
+}
+
+.title-and-button-p{
+  font-size: 2rem;
+  color: $color-dark-grey;
+}
+
+.title-and-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin: 0 10px 0 10px;
+  border-bottom: 1px solid $color-dark-grey;
+
+  h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $color-orange;
+
+  }
+}
+
+.new-plan-btn{
+  background: $color-orange;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.nameOfPlan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0 150px 0 150px;
+}
+
+.nameOfPlanInput{
+  width: 75%;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.descriptionOfThePlan{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin: 0 150px 0 150px;
+}
+
+.descriptionPlanInput{
+  width: 75%;
+  height: 160px;
+  font-size: 2rem;
+}
+
+.numberOfWeek{
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0 150px 0 150px;
+  border-bottom: 1px solid $color-dark-grey;
+}
+
+.numberOfWeekInput{
+  width: 60px;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.selectNewPlanTable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: $color-dark-grey;
+}
+
+.planTable{
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+
+  td{
+    padding: 10px;
+
+  }
+
+}
+
+.meal-line{
+  border-bottom: 1px solid $color-dark-grey;
+}
